@@ -3,7 +3,7 @@
 ---
 
 ## `users` — Пользователи
-- **Поля:** `id`(PK), `email`(UNIQUE), `avatar_url`, `profile_banner_url`, `privacy_default`, `notify_meeting_rsvp_changes`, `theme`, `language`, `timezone`.
+- **Поля:** `id`(PK), `email`(UNIQUE), , `password`, `username`, `display_name, `avatar_url`, `profile_banner_url`, `privacy_default`, `notify_meeting_rsvp_changes`, `theme`, `language`, `timezone`.
 - **Правила:** Email валидируется на приложении. Для `privacy_default`, `theme`, `language`, `timezone` — ограничить допустимые значения (`CHECK`/`ENUM`).
 
 ---
