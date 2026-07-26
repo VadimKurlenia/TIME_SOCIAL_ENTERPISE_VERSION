@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+  "appTitle": "TimeSocial",
+  "login": "Login",
+  "register": "Register",
+  "email": "Email",
+  "password": "Password",
+  "username": "Username",
+  "displayName": "Display Name",
+  "noAccount": "Don't have an account? Register",
+  "haveAccount": "Already have an account? Login"
+}
